@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "backend services",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 180000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.0.2",
+    "body-parser": "^1.18.1",
+    "config": "^1.26.2",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.11.11",
+    "multi-rest": "^2.0.1",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0",
+    "restify-router": "^0.5.0",
+    "util": "^0.10.3",
+    "uuid": "^3.1.0"
+  }
+}
